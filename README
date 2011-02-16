@@ -1,0 +1,9 @@
+. get_asx_cadenaser.rb 
+
+script that allows you to listen cadenaser.com audio stream without use the offical player. 
+
+Usage (with mplayer):
+
+# ruby get_asx_cadenaser.rb | xargs mplayer -playlist 
+
+It will write the temporal timestamp.asx file in the /tmp/ directory.
